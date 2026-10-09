@@ -1,0 +1,139 @@
+1
+00:00:00,000 --> 00:00:06,550
+"Store below 30 °C" is printed on medicines across the hot half of the world.
+
+2
+00:00:06,600 --> 00:00:12,948
+It looks like advice. It is really a climate forecast — and it was made decades ago.
+
+3
+00:00:12,998 --> 00:00:16,329
+This project checks whether that forecast still holds.
+
+4
+00:00:16,379 --> 00:00:23,264
+Before a medicine is approved, batches sit in a test chamber for a year or more.
+
+5
+00:00:23,314 --> 00:00:31,004
+WHO sets three chamber conditions: 25 °C for temperate markets, and 30 °C with 65% or 75% humidity for hot ones.
+
+6
+00:00:31,054 --> 00:00:38,073
+Each setting was chosen to sit, with a safety margin, above the climate where the medicine will be stored.
+
+7
+00:00:38,123 --> 00:00:43,131
+If the climate warms past it, every shelf life approved there becomes optimistic.
+
+8
+00:00:43,181 --> 00:00:50,736
+The numbers come from 1971, when Haynes defined mean kinetic temperature — one number that captures heat damage.
+
+9
+00:00:50,786 --> 00:00:59,147
+In 1998 Grimm set the 30 °C conditions with a margin over the climate of that time. In 2006 WHO added 75% humidity.
+
+10
+00:00:59,197 --> 00:01:07,223
+The only recent re-check, for Japan in 2024, found no problem. A new global guideline, ICH Q1, is due in November 2026.
+
+11
+00:01:07,273 --> 00:01:12,615
+The gap: we found no multi-decade, multi-country check of today's climate against these conditions.
+
+12
+00:01:12,665 --> 00:01:20,892
+Our idea: treat the test condition as a hypothesis about the climate, and test it with the regulators' own method.
+
+13
+00:01:20,942 --> 00:01:27,290
+Climate data become an effective temperature and humidity each year. We subtract them from the test condition.
+
+14
+00:01:27,340 --> 00:01:34,360
+What is left is the safety margin. Below zero, the climate has crossed the line, and shelf life shrinks.
+
+15
+00:01:34,410 --> 00:01:42,100
+The formula is from 1971. What is new is repeating the audit every year, below country level, for heat and humidity.
+
+16
+00:01:42,150 --> 00:01:48,364
+We analysed 18 places: 10 from ERA5 reanalysis and 8 from NOAA weather stations.
+
+17
+00:01:48,414 --> 00:01:54,427
+We compared 1981–2000 with 2006–2025, and wrote our hypotheses and pass/fail rules before downloading any data.
+
+18
+00:01:54,477 --> 00:02:01,497
+Three built-in checks: Tokyo as a positive control, a bias check against hourly station data, and reanalysis versus stations.
+
+19
+00:02:01,547 --> 00:02:06,889
+Our daily method read 0.3 °C high, so every level you see is corrected.
+
+20
+00:02:06,939 --> 00:02:15,166
+Result one: every one of the 18 places warmed, by 0.35 to 1.33 °C. Every 95% interval is above zero.
+
+21
+00:02:15,216 --> 00:02:20,223
+Seven places now average above the test temperature their medicines are approved at.
+
+22
+00:02:20,273 --> 00:02:26,957
+Tokyo, our control, stays safely inside Japan's 25 °C condition — exactly as the 2024 Japanese study found.
+
+23
+00:02:27,007 --> 00:02:33,892
+Result two: inside the United States, which tests at 25 °C, two cities crossed the line.
+
+24
+00:02:33,942 --> 00:02:41,968
+Houston rose from 24.68 to 25.41 °C, and from 5 to 16 years above 25 °C out of 20. Tampa crossed too.
+
+25
+00:02:42,018 --> 00:02:48,366
+New Orleans now sits right on the line, above it in 9 of the last 20 years.
+
+26
+00:02:48,416 --> 00:02:55,436
+We chose these as the warmest US cities, so this shows the problem exists, not how common it is.
+
+27
+00:02:55,486 --> 00:03:00,694
+Result three: on humid coasts, water vapour breaks the chamber first.
+
+28
+00:03:00,744 --> 00:03:07,763
+Chennai, Colombo and Yangon already hold more water vapour than the 30 °C, 65% chamber. Colombo exceeds 70% too.
+
+29
+00:03:07,813 --> 00:03:13,827
+None yet reaches 75% — the reason WHO created that condition, now measured with current data.
+
+30
+00:03:13,877 --> 00:03:20,091
+Why it matters: each extra degree speeds a typical degradation reaction by about 11%.
+
+31
+00:03:20,141 --> 00:03:26,825
+So a 24-month label behaves like about 23 months in Houston, 20 in Dubai and 15 in Phoenix.
+
+32
+00:03:26,875 --> 00:03:34,900
+This is outdoor climate, not measured product temperature — many buildings are cooled. But degraded antibiotics can under-dose patients and drive resistance.
+
+33
+00:03:34,950 --> 00:03:41,500
+What changes: regulators can re-check test conditions every year with our open tool and data.
+
+34
+00:03:41,550 --> 00:03:48,570
+Places already over the line can be targeted for stability checks, and humid coasts get evidence for stricter humidity.
+
+35
+00:03:48,620 --> 00:03:51,950
+A standard is a forecast. Forecasts need checking.

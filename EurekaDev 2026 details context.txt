@@ -1,0 +1,75 @@
+EurekaDev 2026
+A 5-week global innovation challenge blending science fairs and hackathons. Research or code your way to innovation across multiple STEM tracks! Code, research and win prizes!
+Edit project
+Create project
+Import from portfolio
+Who can participate
+Ages 13 to 19 only
+
+
+Overview
+EurekaDev is a 5-week online innovation competition open to high school students worldwide that combines the spirit of a science fair with the creativity of a hackathon. Participants can code or research projects in diverse categories and present their work in a final symposium. Along the way, students will attend weekly workshops, hear from industry professionals, and gain valuable skills in problem-solving, teamwork, and pitching.
+
+Whether you’re an experienced builder or a complete beginner, we encourage you to join! You can compete individually or with up to 4 teammates. Throughout the competition, there will be workshops and guest speaker panels covering computer science, AI, medicine, and more, so everyone has the chance to learn, innovate, and pitch their ideas.
+
+ 
+
+What makes EurekaDEV unique?
+Tracks
+
+We offer two tracks so participants can showcase their strengths:
+
+Coding Track → apps, AI models, technical solutions
+Research Track → literature reviews, experimental designs, theoretical innovations
+Subject Categories
+
+Within each track, participants can choose from 6 categories:
+
+Computer Science + AI (Technology)
+Biology/Medical and Environmental Science
+Math & Physics
+Economics
+Problem in the Community
+Other 
+ 
+Please make sure to:
+Join on this Devpost
+Join the Discord for announcements, workshops, and updates
+Follow us on Instagram for updates!
+Any other questions about EurekaDev? Email us at eureka.institute.contact@gmail.com or ask in the Questions channel on Discord!
+
+ 
+
+Why join?
+EurekaDev isn’t just about competing, it’s about learning, collaboration, and creating impact. Whether you want to code, research, or both, this is your chance to innovate across multiple categories and share your vision with a global community. Additionally, there's a chance to win awesome prizes and scholarships to research programs!
+
+Requirements
+What to Build
+You must create a project in one of two tracks and in one of the subject categories:
+
+Coding Track: Build a functional prototype, app, website, simulation, or other coded solution. Citations and evidence in your project description is a bonus!
+
+Research Track: Conduct background research and create a literature review, theoretical framework, or experimental design around your chosen problem. A prototype is a bonus!
+
+What to Submit
+Project Video (Required) (Paste link in Video demo link field)
+
+Maximum 4 minutes in length.
+Must explain the problem, your solution, and how it works.
+Can include demo footage, slides, or other visuals.
+Written Project Description (Required) (About the project field)
+
+Provide a detailed description of your idea/solution, including what makes it innovative.
+Coding Track → include description of technologies used.
+Research Track → include background research and references (if applicable).
+Code or Research Documentation (Required)
+
+Coding Track (Try it out links):
+PUBLIC GitHub or other repo link (Required) with source code, with a README explaining setup/use.
+Live Demo (testable link) - recommended but not required
+Research Track (File upload):
+Participants will submit a PDF containing the following sections: https://docs.google.com/document/d/1Y7UJF9GO88y6imqEjcE2kyPyv6QwieMmWFFdpY8GVAM/edit?usp=sharing
+NOTES:
+
+Projects created before the hackathon timeframe are permitted, however they will receive a harsh point deducton.
+AI use for writing code/research document is discouraged, but allowed. AI use for ideation and support is encouraged. Just know that quality is a judging criteria!

@@ -1,0 +1,43 @@
+EXPIRED BY CLIMATE
+Do pharmaceutical stability test conditions still cover the climates they were built for?
+
+THE PROBLEM
+Before any medicine is approved, batches are stored for a year or more at a fixed "long-term" condition to prove the shelf life printed on the pack. WHO sets three such conditions: 25 °C / 60% humidity for temperate markets and 30 °C / 65% or 75% for hot ones (WHO TRS 1010, Annex 10, 2018). These numbers were not arbitrary: they were derived in the 1980s–2000s by converting weather records into a "mean kinetic temperature" (MKT) — the single temperature that causes the same total degradation as the real, fluctuating one (Haynes 1971) — and adding a safety margin (Grimm 1998). The climate has warmed since. If a region's effective temperature now exceeds its test condition, every shelf life approved there is optimistic by an amount the Arrhenius equation can calculate. Degraded medicines under-dose patients, and under-dosed antibiotics can drive resistance (Kaplan, Hamer & Shioda 2025).
+
+WHAT IS ALREADY KNOWN
+The conditions were re-derived only per country or region, with older data: Taiwan (1997), WHO Eastern Mediterranean (2006, ERA-40), tropical sites (Zahn et al. 2006). The single modern re-check, for Japan with 1991–2020 data, found the conditions still met (Miura 2024). Recent papers discuss climate risk to medicines only qualitatively (Pericão et al. 2026; Kaplan et al. 2025). Meanwhile ICH plans to adopt its consolidated stability guideline, Q1, in November 2026.
+
+OUR CONTRIBUTION
+We treat a regulatory test condition as a hypothesis about the climate and test it with the regulators' own method on today's data. For 18 places (10 from ERA5 reanalysis, 8 from NOAA weather stations) we computed MKT and water-vapour pressure for every year from 1981 to 2025, and compared 1981–2000 with 2006–2025 against the test condition each country uses. Hypotheses and rejection rules were fixed before the data run.
+
+WHAT IS INNOVATIVE
+The MKT formula is from 1971; what is new is (1) re-testing the condition every year rather than once, (2) testing places below country level, exposing hot regions inside temperate-zone countries, (3) tracking temperature and humidity margins separately, and (4) built-in checks: a positive control (Japan), a bias check against hourly station data, and a reanalysis-versus-station comparison. In our literature search we found no multi-decade, multi-country audit of this kind.
+
+RESULTS (first run, 8 October 2026)
+- Effective temperature rose in all 18 places, by 0.35 to 1.33 °C between the two periods; every 95% interval excludes zero.
+- After correcting a measured +0.3 °C method bias, 7 of 18 places now average above the test temperature their medicines are approved at: Phoenix, Las Vegas, Dubai, Tucson, Miami, Tampa and Houston.
+- On the US Gulf coast, inside an ICH region (25 °C condition), Houston and Tampa crossed the line between the periods: Houston 24.68 → 25.41 °C (5 → 16 of 20 years above 25 °C), Tampa 24.96 → 25.67 °C (9 → 18 years). New Orleans now exceeds it in 9 of the last 20 years.
+- Dubai averages 31.81 °C against a 30 °C condition.
+- In humid coastal cities (Chennai, Colombo, Yangon) the air already holds more water vapour than the 30 °C / 65% test chamber.
+- Positive control passed: Tokyo (22.09 °C) stays inside Japan's 25 °C condition, matching Miura (2024).
+- In shelf-life terms, a 24-month label behaves like 22.9 months in Houston and 19.7 months in Dubai (default activation energy).
+
+LIMITS (stated plainly)
+This is outdoor climate, not measured product temperature: many buildings are air-conditioned, and Grimm also used warehouse data. The finding is that the test condition no longer bounds the outdoor climate it was meant to cover — not that any product failed. 18 places are not a global sample: the US and Spanish stations were deliberately chosen among the warmest cities of 25 °C countries, so they show that exceedance exists, not how common it is. A gridded, population-weighted run is the next step.
+
+IMPACT
+Regulators get a reproducible way to re-check test conditions every year; places where the margin has gone can be prioritised for post-market stability surveillance; countries still testing at 30 °C / 65% get evidence on humidity. The tool and data are open.
+
+REFERENCES
+Grimm W. (1998) Drug Dev Ind Pharm 24(4):313–325. doi:10.3109/03639049809085626
+Haynes JD. (1971) J Pharm Sci 60:927–929. doi:10.1002/jps.2600600629
+Hersbach H, et al. (2020) The ERA5 global reanalysis. QJRMS 146:1999–2049. doi:10.1002/qj.3803
+ICH (2003) Q1A(R2) Stability testing of new drug substances and products.
+ICH Q1 EWG (2026) Work plan, 11 Feb 2026.
+Kaplan WA, Hamer DH, Shioda K. (2025) One Health 20:100957. doi:10.1016/j.onehlt.2024.100957
+Menne MJ, et al. (2012) GHCN-Daily. J Atmos Ocean Technol 29(7):897–910. doi:10.1175/JTECH-D-11-00103.1
+Miura E. (2024) Ther Innov Regul Sci 58:184–191. doi:10.1007/s43441-023-00584-4
+Pericão H, et al. (2026) Pharm Res 43:2701–2709. doi:10.1007/s11095-026-04122-3
+WHO (2018) TRS 1010, Annex 10: Stability testing of APIs and finished pharmaceutical products.
+Zahn M, et al. (2006) J Pharm Sci 95:946–965.
+Full reference list and methods: attached research PDF.
