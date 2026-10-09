@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 
 BIAS = 0.3          # daily-max/min reconstruction over-reads MKT by ~0.3 C vs hourly data (NOAA, 2024)
 R = 8.3144598
-df = pd.read_csv("/home/claude/paper/data/expired_by_climate_results.csv")
+df = pd.read_csv("data/expired_by_climate_results.csv")
 df["is_era5"] = df.source.str.startswith("ERA5")
 
 # Primary series per place: ERA5 where available, otherwise the station record.
@@ -68,7 +68,7 @@ out = dict(places=res.to_dict(orient="records"), validation=val.to_dict(orient="
            n_places=len(res), n_era5=int((res.source == "ERA5").sum()), n_station=int((res.source == "Station").sum()),
            n_warmed=int((res.lo > 0).sum()), n_above=int((res.margin_c < 0).sum()),
            d_min=res.d.min(), d_max=res.d.max(), bias=BIAS)
-json.dump(out, open("/home/claude/paper/results.json", "w"), indent=1, default=float)
+json.dump(out, open("results.json", "w"), indent=1, default=float)
 
 # ---------------------------------------------------------------- figures
 plt.rcParams.update({"font.family": "Carlito", "font.size": 9, "axes.edgecolor": "#888",
@@ -100,7 +100,7 @@ ax.tick_params(axis="y", length=0)
 ax.grid(axis="x", color="#ececec", lw=0.6); ax.set_axisbelow(True)
 ax.plot([], [], "o", color=GREY, label="1981–2000"); ax.plot([], [], "o", color=ACCENT, label="2006–2025")
 ax.legend(loc="lower right", frameon=False, fontsize=8.5)
-fig.savefig("/home/claude/paper/figs/fig2_margins.png", bbox_inches="tight", facecolor="white")
+fig.savefig("figures/fig2_margins.png", bbox_inches="tight", facecolor="white")
 plt.close(fig)
 
 # humidity figure (ERA5 cities, Zone IV)
@@ -120,7 +120,7 @@ ax.tick_params(axis="y", length=0)
 ax.grid(axis="x", color="#ececec", lw=0.6); ax.set_axisbelow(True)
 ax.plot([], [], "o", color=GREY, label="1981–2000"); ax.plot([], [], "o", color=ACCENT, label="2006–2025")
 ax.legend(loc="lower left", bbox_to_anchor=(0.30, 0.02), frameon=False, fontsize=8.5)
-fig.savefig("/home/claude/paper/figs/fig3_humidity.png", bbox_inches="tight", facecolor="white")
+fig.savefig("figures/fig3_humidity.png", bbox_inches="tight", facecolor="white")
 plt.close(fig)
 
 pd.set_option("display.width", 220)
