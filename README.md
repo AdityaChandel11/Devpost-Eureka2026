@@ -157,6 +157,7 @@ python code/stability_drift_pipeline.py analyse era5_hourofday_*.nc --out result
 | **ERA5 vs Station** | Cross-validate reanalysis against ground truth | Agreement within expected range |
 | **ICH worked example** | MKT of [20, 40] °C should ≈ 34.4 °C | ✅ 34.4 °C (selftest) |
 
+Pitch deck / Video Explantion and criticality - https://youtu.be/UQVjYAxChTI?si=DXAJLfDupPn6uK_C
 ---
 
 ## 📝 Citation
@@ -183,7 +184,7 @@ https://github.com/AdityaChandel11/Devpost-Eureka2026
 ---
 
 <div align="center">
-Pitch deck / Video Explantion and criticality - https://youtu.be/UQVjYAxChTI?si=DXAJLfDupPn6uK_C
+
 *A standard is a forecast. Forecasts need checking.*
 
 **Made for [EurekaDev 2026](https://eurekadev2026.devpost.com) · Research Track · Biology/Medical and Environmental Science**
