@@ -183,7 +183,7 @@ https://github.com/AdityaChandel11/Devpost-Eureka2026
 ---
 
 <div align="center">
-
+Pitch deck / Video Explantion and criticality - https://youtu.be/UQVjYAxChTI?si=DXAJLfDupPn6uK_C
 *A standard is a forecast. Forecasts need checking.*
 
 **Made for [EurekaDev 2026](https://eurekadev2026.devpost.com) · Research Track · Biology/Medical and Environmental Science**
